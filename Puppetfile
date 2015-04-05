@@ -60,3 +60,13 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "sublime_text",      "1.0.1"
+github "skype",             "1.1.0"
+github "dropbox",           "1.4.1"
+github "firefox",           "1.2.3"
+github "chrome",            "1.2.0"
+github "hipchat",           "1.1.3"
+github "spotify",           "1.0.2"
+github "transmit",          "1.0.2"
+github "imagemagick",       "1.3.0"

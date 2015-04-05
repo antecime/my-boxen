@@ -89,3 +89,20 @@ node default {
     target => $boxen::config::repodir
   }
 }
+
+# comunication
+  include skype
+  include hipchat
+
+# browsers
+  include chrome::dev
+  include firefox
+
+# other
+  include spotify
+  include dropbox
+  include transmit
+  include imagemagick
+
+# text editor
+  include sublime_text
