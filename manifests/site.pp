@@ -115,8 +115,8 @@ node default {
   sublime_text::package { 'sass-textmate-bundle':
     source => 'nathos/sass-textmate-bundle'
   }
-  sublime_text::package { 'cobalt2':
-    source => 'wesbos/cobalt2'
+  sublime_text::package { 'hero':
+    source => 'nickbalestra/hero'
   }
   sublime_text::package { 'GitGutter':
     source => 'jisaacks/GitGutter'
