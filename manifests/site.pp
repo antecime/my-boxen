@@ -106,3 +106,27 @@ node default {
 
 # text editor
   include sublime_text
+  sublime_text::package { 'SublimeLinter3':
+    source => 'SublimeLinter/SublimeLinter3'
+  }
+  sublime_text::package { 'SublimeLinter-jshint':
+    source => 'SublimeLinter/SublimeLinter-jshint'
+  }
+  sublime_text::package { 'sass-textmate-bundle':
+    source => 'nathos/sass-textmate-bundle'
+  }
+  sublime_text::package { 'cobalt2':
+    source => 'wesbos/cobalt2'
+  }
+  sublime_text::package { 'GitGutter':
+    source => 'jisaacks/GitGutter'
+  }
+  sublime_text::package { 'SublimePrettyJson':
+    source => 'dzhibas/SublimePrettyJson'
+  }
+  sublime_text::package { 'SideBarEnhancements':
+    source => 'titoBouzout/SideBarEnhancements'
+  }
+  sublime_text::package { 'SublimeCodeIntel':
+    source => 'SublimeCodeIntel/SublimeCodeIntel'
+  }
