@@ -106,6 +106,10 @@ node default {
 
 # text editor
   include sublime_text
+
+  sublime_text::package { 'Package Control':
+    source => 'wbond/sublime_package_control'
+  }
   sublime_text::package { 'SublimeLinter3':
     source => 'SublimeLinter/SublimeLinter3'
   }
